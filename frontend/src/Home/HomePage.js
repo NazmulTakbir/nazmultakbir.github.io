@@ -2,10 +2,10 @@ import React from "react";
 
 import Navbar from "./Sections/Navbar";
 import Home from "./Sections/Home";
-import Experience from "./Sections/Experience";
+import Research from "./Sections/Research";
 import Education from "./Sections/Education";
-import Skills from "./Sections/Skills";
-import Interests from "./Sections/Interests";
+import Skills from "./Sections/Skills/Skills";
+import Projects from "./Sections/Projects/Projects";
 import Awards from "./Sections/Awards";
 
 function HomePage() {
@@ -15,13 +15,13 @@ function HomePage() {
       <div class="container-fluid p-0">
         <Home />
         <hr class="m-0" />
-        <Experience />
-        <hr class="m-0" />
         <Education />
         <hr class="m-0" />
-        <Skills />
+        <Research />
         <hr class="m-0" />
-        <Interests />
+        <Projects />
+        <hr class="m-0" />
+        <Skills />
         <hr class="m-0" />
         <Awards />
         <hr class="m-0" />

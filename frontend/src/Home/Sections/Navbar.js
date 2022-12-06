@@ -11,22 +11,22 @@ function Navbar() {
     const offet = 20;
 
     const offset = -1 * document.getElementById("root").getBoundingClientRect().top - offet;
-    const expPos = document.getElementById("experience").getBoundingClientRect().top + offset - offet;
     const eduPos = document.getElementById("education").getBoundingClientRect().top + offset - offet;
+    const researchPos = document.getElementById("research").getBoundingClientRect().top + offset - offet;
+    const projPos = document.getElementById("projects").getBoundingClientRect().top + offset - offet;
     const skillsPos = document.getElementById("skills").getBoundingClientRect().top + offset - offet;
-    const interestsPos = document.getElementById("interests").getBoundingClientRect().top + offset - offet;
     const awardsPos = document.getElementById("awards").getBoundingClientRect().top + offset - offet * 10;
 
-    if (position < expPos) {
+    if (position < eduPos) {
       setSelectedSection("Home");
-    } else if (position >= expPos && position < eduPos) {
-      setSelectedSection("Experience");
-    } else if (position >= eduPos && position < skillsPos) {
+    } else if (position >= eduPos && position < researchPos) {
       setSelectedSection("Education");
-    } else if (position >= skillsPos && position < interestsPos) {
+    } else if (position >= researchPos && position < projPos) {
+      setSelectedSection("Research");
+    } else if (position >= projPos && position < skillsPos) {
+      setSelectedSection("Projects");
+    } else if (position >= skillsPos && position < awardsPos) {
       setSelectedSection("Skills");
-    } else if (position >= interestsPos && position < awardsPos) {
-      setSelectedSection("Interests");
     } else if (position >= awardsPos) {
       setSelectedSection("Awards");
     }
@@ -44,10 +44,10 @@ function Navbar() {
   // https://stackoverflow.com/questions/71249961/react-jsx-setting-a-dynamic-hover-color-pseudoclass-property
   const sections = [
     { name: "Home", link: "#home" },
-    { name: "Experience", link: "#experience" },
     { name: "Education", link: "#education" },
+    { name: "Research", link: "#research" },
+    { name: "Projects", link: "#projects" },
     { name: "Skills", link: "#skills" },
-    { name: "Interests", link: "#interests" },
     { name: "Awards", link: "#awards" },
   ];
   return (

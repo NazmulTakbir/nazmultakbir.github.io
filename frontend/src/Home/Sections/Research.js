@@ -1,11 +1,11 @@
 import React from "react";
 
-function Experience() {
+function Research() {
   return (
     <React.Fragment>
-      <section class="resume-section" id="experience">
+      <section class="resume-section" id="research">
         <div class="resume-section-content">
-          <h2 class="mb-5">Experience</h2>
+          <h2 class="mb-5">Research</h2>
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
               <h3 class="mb-0">Senior Web Developer</h3>
@@ -70,4 +70,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Research;
