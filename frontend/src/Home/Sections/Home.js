@@ -6,8 +6,7 @@ function Home() {
       <section class="resume-section" id="home">
         <div class="resume-section-content">
           <h1 class="mb-0">
-            Nazmul
-            <span class="text-primary">Takbir</span>
+            <span class="text-primary">Nazmul</span> <span style={{ color: "#bc4b49" }}>Takbir</span>
           </h1>
           <div class="subheading mb-5">
             3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·

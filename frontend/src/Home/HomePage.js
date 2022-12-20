@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "./Sections/Navbar";
 import Home from "./Sections/Home";
 import Research from "./Sections/Research";
-import Education from "./Sections/Education";
+import Education from "./Sections/Education/Education";
 import Skills from "./Sections/Skills/Skills";
 import Projects from "./Sections/Projects/Projects";
 import Awards from "./Sections/Awards";

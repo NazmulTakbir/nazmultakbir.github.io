@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import IconButton from "@mui/material/IconButton";
 
 function MobileScreen(props) {
   return (
@@ -63,24 +64,56 @@ function MobileScreen(props) {
         </div>
       </div>
       <div class="d-flex justify-content-center">
-        <a
-          style={{ marginTop: "20px", marginRight: "5px" }}
-          class="btn btn-secondary"
-          role="button"
+        <IconButton
+          sx={[
+            {
+              width: 40,
+              height: 40,
+              marginTop: "20px",
+              borderRadius: 0,
+              border: "1px solid",
+              backgroundColor: "#3367b4",
+              color: "white",
+              borderColor: "primary.main",
+              boxShadow: 8,
+              marginLeft: "8px",
+            },
+            () => ({
+              "&:hover": {
+                backgroundColor: "#3296FD",
+              },
+            }),
+          ]}
           data-bs-target="#carouselExampleControls"
           data-bs-slide="prev"
         >
           <i class="fa fa-arrow-left"></i>
-        </a>
-        <a
-          style={{ marginTop: "20px", marginLeft: "5px" }}
-          class="btn btn-secondary"
-          role="button"
+        </IconButton>
+        <IconButton
+          sx={[
+            {
+              width: 40,
+              height: 40,
+              marginTop: "20px",
+              borderRadius: 0,
+              border: "1px solid",
+              backgroundColor: "#3367b4",
+              color: "white",
+              borderColor: "primary.main",
+              boxShadow: 8,
+              marginLeft: "8px",
+            },
+            () => ({
+              "&:hover": {
+                backgroundColor: "#3296FD",
+              },
+            }),
+          ]}
           data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
         >
           <i class="fa fa-arrow-right"></i>
-        </a>
+        </IconButton>
       </div>
     </React.Fragment>
   );

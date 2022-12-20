@@ -6,10 +6,12 @@ import { Github } from "react-bootstrap-icons";
 import { Youtube } from "react-bootstrap-icons";
 import { ReactComponent as PGSql } from "../../../Files/svg/postgresql.svg";
 
+import "./style.css";
+
 function ProjectCard(props) {
   const imgHeight = props.width.slice(0, -3) * 0.5625 + "rem";
   return (
-    <div class="card shadow rounded" style={{ width: props.width }}>
+    <div class="card shadow rounded" style={{ width: props.width, margin: "30px" }}>
       <img
         src="https://images.unsplash.com/photo-1626593261859-4fe4865d8cb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8MTYlM0E5fGVufDB8fDB8fA%3D%3D&w=1000&q=80"
         class="card-img-top"
