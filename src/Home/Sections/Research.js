@@ -4,7 +4,7 @@ import Link from "@mui/material/Link";
 function Research() {
   return (
     <React.Fragment>
-      <section class="resume-section" id="research">
+      <section class="resume-section" style={{ paddingTop: "60px" }} id="research">
         <div class="resume-section-content">
           <h2 class="mb-5">Research</h2>
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -25,10 +25,33 @@ function Research() {
                 <br />
                 <br />
                 <p>
-                  Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day,
-                  going forward, a new normal that has evolved from generation X is on the runway heading towards a
-                  streamlined cloud solution. User generated content in real-time will have multiple touchpoints for
-                  offshoring.
+                  Online Machine Learning models have the ability to continuously learn from a stream of data, making
+                  them particularly useful in real-time scenarios such as sensor data or{" "}
+                  <Link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://en.wikipedia.org/wiki/Click-through_rate"
+                  >
+                    click-through-rates
+                  </Link>{" "}
+                  of a recommender system. Despite its potential, this approach is not widely utilized due to{" "}
+                  <Link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://huyenchip.com/2020/12/27/real-time-machine-learning.html"
+                  >
+                    limitations
+                  </Link>{" "}
+                  in model development and deployment infrastructure. In this project, we focus on the latter by
+                  proposing a serverless architecture for online machine learning. The properties of serverless
+                  architecture such as scalability, cost-efficiency, and ease of deployment make it a promising solution
+                  for online machine learning. We will test the validity of this promise by comparing the deployment of
+                  online machine learning models on a serverless architecture with traditional methods in terms of cost,
+                  latency, scalability, and ease of deployment
+                </p>
+                <p>
+                  Experiments for the project are performed on the AWS cloud. The project is funded by RISE, BUET
+                  Student Research Grant{" "}
                 </p>
               </div>
               <div class="flex-shrink-0">

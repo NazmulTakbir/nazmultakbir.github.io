@@ -1,12 +1,12 @@
 import React from "react";
 
-import Link from "@mui/material/Link";
+// import Link from "@mui/material/Link";
 import "./style.css";
 
 function Education() {
   return (
     <React.Fragment>
-      <section class="resume-section" id="education">
+      <section class="resume-section" style={{ paddingTop: "60px" }} id="education">
         <div class="resume-section-content">
           <h2 class="mb-3">Education</h2>
           <div class="institution-card d-flex flex-column flex-md-row justify-content-between mb-5 shadow p-5">
@@ -16,9 +16,9 @@ function Education() {
               <div>Computer Science and Engineering</div>
               <p>Current CGPA: 3.91</p>
               <p>Expected Graduation Date: May 2023</p>
-              <p>
+              {/* <p>
                 <Link href="#">Here's some of the courses I enjoyed most</Link>
-              </p>
+              </p> */}
             </div>
             <div class="flex-shrink-0">
               <span class="text-primary">April 2018 - May 2023</span>

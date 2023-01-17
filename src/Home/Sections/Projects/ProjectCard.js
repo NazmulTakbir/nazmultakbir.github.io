@@ -80,7 +80,9 @@ function ProjectCard(props) {
             />
           ) : null}
         </div>
-        <p class="card-text">Short Description of the project. Lorem ipsum dolor sit amet</p>
+        <p class="card-text" style={{ fontSize: "13px", paddingTop: "5px" }}>
+          {props.project.description}
+        </p>
 
         <div class="d-flex flex-row-reverse">
           <Link target="_blank" rel="noopener noreferrer" href={props.project.videolink} underline="none" color="red">
