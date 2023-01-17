@@ -8,7 +8,10 @@ function Research() {
         <div class="resume-section-content">
           <h2 class="mb-5">Research</h2>
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="institution-card d-flex flex-column flex-md-row justify-content-between mb-5 shadow p-5">
+            <div
+              class="institution-card d-flex flex-column flex-md-row justify-content-between mb-5 shadow p-5"
+              style={{ marginRight: "12px", marginLeft: "12px" }}
+            >
               <div class="flex-grow-1">
                 <h3 class="mb-0">Online Machine Learning using Serverless Architecture</h3>
                 Supervised by{" "}
