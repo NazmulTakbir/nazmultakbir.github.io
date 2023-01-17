@@ -361,6 +361,7 @@ function TabController() {
               <img
                 src={require("../../../Files/imgs/javafx.jpg")}
                 style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
+                alt="javafx"
               ></img>
               <div class="subheading">JavaFX</div>
             </div>
@@ -373,6 +374,7 @@ function TabController() {
               <img
                 src={require("../../../Files/imgs/latex.png")}
                 style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
+                alt="latex"
               ></img>
               <div class="subheading">Latex</div>
             </div>
@@ -385,6 +387,7 @@ function TabController() {
               <img
                 src={require("../../../Files/imgs/ns3.png")}
                 style={{ height: "20px", marginTop: "10px", marginRight: "6px" }}
+                alt="ns3"
               ></img>
               <div class="subheading">NS3</div>
             </div>
@@ -397,6 +400,7 @@ function TabController() {
               <img
                 src={require("../../../Files/imgs/opengl.png")}
                 style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
+                alt="opengl"
               ></img>
               <div class="subheading">OpenGL</div>
             </div>

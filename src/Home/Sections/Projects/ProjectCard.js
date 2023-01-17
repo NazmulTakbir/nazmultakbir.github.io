@@ -43,12 +43,14 @@ function ProjectCard(props) {
             <img
               src={require("../../../Files/imgs/opengl.png")}
               style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
+              alt="opengl"
             ></img>
           ) : null}
           {props.project.tech["javafx"] ? (
             <img
               src={require("../../../Files/imgs/javafx.jpg")}
               style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
+              alt="javafx"
             ></img>
           ) : null}
           {props.project.tech["django"] ? (
