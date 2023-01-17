@@ -3,7 +3,7 @@ import { Link } from "@mui/material";
 
 import { Github } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
-import { Youtube } from "react-bootstrap-icons";
+import { Facebook } from "react-bootstrap-icons";
 import { Twitter } from "react-bootstrap-icons";
 
 function SocialMedia() {
@@ -12,16 +12,40 @@ function SocialMedia() {
   };
   return (
     <div class="container text-center" style={style}>
-      <Link href="" underline="none" color="#f7f7f7">
+      <Link
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/NazmulTakbir"
+        underline="none"
+        color="#f7f7f7"
+      >
         <Github size={25} class="m-1" />
       </Link>
-      <Link href="" underline="none" color="#f7f7f7">
+      <Link
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/nazmul-takbir/"
+        underline="none"
+        color="#f7f7f7"
+      >
         <Linkedin size={25} class="m-1" />
       </Link>
-      <Link href="" underline="none" color="#f7f7f7">
-        <Youtube size={25} class="m-1" />
+      <Link
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.facebook.com/nazmul.takbir/"
+        underline="none"
+        color="#f7f7f7"
+      >
+        <Facebook size={25} class="m-1" />
       </Link>
-      <Link href="" underline="none" color="#f7f7f7">
+      <Link
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://twitter.com/NazmulTakbir"
+        underline="none"
+        color="#f7f7f7"
+      >
         <Twitter size={25} class="m-1" />
       </Link>
     </div>

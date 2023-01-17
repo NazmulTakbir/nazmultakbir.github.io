@@ -20,6 +20,7 @@ import { ReactComponent as Bash } from "../../../Files/svg/bash.svg";
 import { ReactComponent as Git } from "../../../Files/svg/git.svg";
 import { ReactComponent as Pytorch } from "../../../Files/svg/pytorch.svg";
 import { ReactComponent as Android } from "../../../Files/svg/android.svg";
+import { ReactComponent as AWS } from "../../../Files/svg/aws.svg";
 
 import useWindowSize from "../../../Hooks/useWindowSize";
 import "./style.css";
@@ -212,7 +213,7 @@ function TabController() {
               <div class="subheading">NodeJS</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "80%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "75%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
           <div class="skill-item p-1 pb-3">
@@ -221,7 +222,7 @@ function TabController() {
               <div class="subheading">Django</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "65%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "55%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
           <div class="skill-item p-1 pb-3">
@@ -234,7 +235,7 @@ function TabController() {
               <div class="subheading">React</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "75%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "65%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
           <div class="skill-item p-1 pb-3">
@@ -256,7 +257,7 @@ function TabController() {
               <div class="subheading">PostgreSQL</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "90%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "80%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
           <div class="skill-item p-1 pb-3">
@@ -265,7 +266,7 @@ function TabController() {
               <div class="subheading">MongoDB</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "30%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "25%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
         </TabPanel>
@@ -279,7 +280,7 @@ function TabController() {
               <div class="subheading">Docker</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "55%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "50%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
           <div class="skill-item p-1 pb-3">
@@ -288,7 +289,7 @@ function TabController() {
               <div class="subheading">Kubernetes</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "35%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "30%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
           <div class="skill-item p-1 pb-3">
@@ -297,7 +298,7 @@ function TabController() {
               <div class="subheading">Linux</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "75%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "70%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
           <div class="skill-item p-1 pb-3">
@@ -314,7 +315,16 @@ function TabController() {
               <div class="subheading">Bash</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "55%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "45%", backgroundColor: "#3296fd" }}></div>
+            </div>
+          </div>
+          <div class="skill-item p-1 pb-3">
+            <div class="d-flex flex-row">
+              <AWS style={{ paddingLeft: "2", marginRight: "6", width: "33px", height: "33px" }} />
+              <div class="subheading">AWS</div>
+            </div>
+            <div class=" progress shadow" style={{ marginTop: "2px" }}>
+              <div class="progress-bar" role="progressbar" style={{ width: "25%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
           <div class="skill-item p-1 pb-3">
@@ -323,7 +333,7 @@ function TabController() {
               <div class="subheading">Git</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "65%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "55%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
         </TabPanel>
@@ -334,7 +344,7 @@ function TabController() {
               <div class="subheading">Pytorch</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "50%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "40%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
           <div class="skill-item p-1 pb-3">
@@ -355,7 +365,7 @@ function TabController() {
               <div class="subheading">JavaFX</div>
             </div>
             <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "40%", backgroundColor: "#3296fd" }}></div>
+              <div class="progress-bar" role="progressbar" style={{ width: "30%", backgroundColor: "#3296fd" }}></div>
             </div>
           </div>
           <div class="skill-item p-1 pb-3">
