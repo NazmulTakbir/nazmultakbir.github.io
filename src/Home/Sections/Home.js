@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "@mui/material/Link";
+import Button from "@mui/material/Button";
+import DownloadIcon from "@mui/icons-material/Download";
 
 function Home() {
   return (
@@ -45,6 +47,11 @@ function Home() {
               <i class="fab fa-facebook-f"></i>
             </a>
           </div>
+          <Link href="/files/NazmulTakbirCV.pdf" target="_blank" rel="noopener noreferrer" download>
+            <Button style={{ backgroundColor: "#495057", marginTop: "40px" }} variant="contained">
+              Resume<DownloadIcon></DownloadIcon>
+            </Button>
+          </Link>
         </div>
       </section>
     </React.Fragment>
