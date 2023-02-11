@@ -47,7 +47,7 @@ function Home() {
               <i class="fab fa-facebook-f"></i>
             </a>
           </div>
-          <Link href="/files/NazmulTakbirCV.pdf" target="_blank" rel="noopener noreferrer" download>
+          <Link href={require("../../Files/pdf/NazmulTakbirCV.pdf")} target="_blank" rel="noopener noreferrer" download>
             <Button style={{ backgroundColor: "#495057", marginTop: "40px" }} variant="contained">
               Resume<DownloadIcon></DownloadIcon>
             </Button>
