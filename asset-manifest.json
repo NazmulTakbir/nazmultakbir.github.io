@@ -1,7 +1,11 @@
 {
   "files": {
     "main.css": "/me/static/css/main.3bdb603e.css",
-    "main.js": "/me/static/js/main.a1904b8e.js",
+    "main.js": "/me/static/js/main.04a81bdf.js",
+    "static/media/NazmulTakbir2.png": "/me/static/media/NazmulTakbir2.83577e251e61bc0fa782.png",
+    "static/media/NazmulTakbir5.jpeg": "/me/static/media/NazmulTakbir5.2a564227d32260ce3acb.jpeg",
+    "static/media/NazmulTakbir4.jpeg": "/me/static/media/NazmulTakbir4.c663ca0a538bc230a8a3.jpeg",
+    "static/media/NazmulTakbir3.jpeg": "/me/static/media/NazmulTakbir3.c9519836577bb9ee8e2f.jpeg",
     "static/media/NazmulTakbir.jpeg": "/me/static/media/NazmulTakbir.511104fbb73c5ac17893.jpeg",
     "static/media/zarad.jpeg": "/me/static/media/zarad.df7668e42f3a9a68d1c0.jpeg",
     "static/media/smart-stick.jpg": "/me/static/media/smart-stick.1c6ad0aa5cc1e33a9a22.jpg",
@@ -31,10 +35,10 @@
     "static/media/C.svg": "/me/static/media/C.7e7197e54e4e73ec27159e49eebc117f.svg",
     "static/media/JS.svg": "/me/static/media/JS.218515feb76f692771fe00cfeadc46c8.svg",
     "main.3bdb603e.css.map": "/me/static/css/main.3bdb603e.css.map",
-    "main.a1904b8e.js.map": "/me/static/js/main.a1904b8e.js.map"
+    "main.04a81bdf.js.map": "/me/static/js/main.04a81bdf.js.map"
   },
   "entrypoints": [
     "static/css/main.3bdb603e.css",
-    "static/js/main.a1904b8e.js"
+    "static/js/main.04a81bdf.js"
   ]
 }
