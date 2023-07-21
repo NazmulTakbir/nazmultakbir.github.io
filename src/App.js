@@ -5,24 +5,23 @@ import HomePage from "./Home/HomePage";
 
 function App() {
   useEffect(() => {
-    const url = window.location.href;
+    const params = new URLSearchParams(window.location.search);
+    const source = params.get("s");
 
-    if (url.includes("github.io")) {
-      const partAfterGithub = url.slice(url.indexOf("github.io") + "github.io".length);
-
-      if (partAfterGithub.includes("f")) {
-        console.log("Visiting From Facebook");
-      } else if (partAfterGithub.includes("g")) {
-        console.log("Visiting From GitHub");
-      } else if (partAfterGithub.includes("l")) {
-        console.log("Visiting From LinkedIn");
-      } else if (partAfterGithub.includes("y")) {
-        console.log("Visiting From YouTube");
-      } else {
-        console.log("Visiting From Instagram/Direct");
-      }
+    if (source === "i") {
+      console.log("Visiting From Instagram");
+    } else if (source === "f") {
+      console.log("Visiting From Facebook");
+    } else if (source === "g") {
+      console.log("Visiting From GitHub");
+    } else if (source === "l") {
+      console.log("Visiting From LinkedIn");
+    } else if (source === "y") {
+      console.log("Visiting From YouTube");
+    } else if (source === "d") {
+      console.log("Visiting From Direct");
     } else {
-      console.log("Visiting From Localhost");
+      console.log("Visiting From Unknown");
     }
   }, []);
 
