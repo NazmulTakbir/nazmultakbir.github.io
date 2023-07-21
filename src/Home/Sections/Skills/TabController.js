@@ -7,6 +7,7 @@ import Box from "@mui/material/Box";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { ReactComponent as Python } from "../../../Files/svg/python.svg";
+import { ReactComponent as Bash } from "../../../Files/svg/bash.svg";
 import { ReactComponent as AppInsights } from "../../../Files/svg/AppInsights.svg";
 import { ReactComponent as SQLServer } from "../../../Files/svg/SQL_Server.svg";
 import { ReactComponent as DotNetCore } from "../../../Files/svg/NET_Core.svg";
@@ -144,10 +145,6 @@ function TabController() {
           ),
         },
         {
-          tool: "Django",
-          icon: <Django style={{ paddingLeft: "4", marginRight: "7", width: "37px", height: "37px" }} />,
-        },
-        {
           tool: "PostgreSQL",
           icon: <PGSql style={{ paddingLeft: "4", paddingRight: "8", width: "40px", height: "40px" }} />,
         },
@@ -201,14 +198,8 @@ function TabController() {
           icon: <Pytorch style={{ padding: "0", marginRight: "4", width: "27px", height: "27px" }} />,
         },
         {
-          tool: "LaTeX",
-          icon: (
-            <img
-              src={require("../../../Files/imgs/latex.png")}
-              style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
-              alt="latex"
-            ></img>
-          ),
+          tool: "Django",
+          icon: <Django style={{ paddingLeft: "4", marginRight: "7", width: "37px", height: "37px" }} />,
         },
         {
           tool: "JavaFX",
@@ -220,11 +211,35 @@ function TabController() {
             ></img>
           ),
         },
+        {
+          tool: "LaTeX",
+          icon: (
+            <img
+              src={require("../../../Files/imgs/latex.png")}
+              style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
+              alt="latex"
+            ></img>
+          ),
+        },
       ],
       novice: [
         {
           tool: "Android Studio",
           icon: <Android style={{ paddingLeft: "1", marginRight: "4", width: "32px", height: "32px" }} />,
+        },
+        {
+          tool: "Bash",
+          icon: (
+            <Bash
+              style={{
+                padding: "0",
+                margin: "0",
+                marginRight: "6",
+                width: "30px",
+                height: "30px",
+              }}
+            />
+          ),
         },
         {
           tool: "NS3",

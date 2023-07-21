@@ -5,8 +5,16 @@ import HomePage from "./Home/HomePage";
 
 function App() {
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const source = params.get("s");
+    let source = "u";
+    if (window.location.href.includes("localhost")) {
+      source = "l";
+    } else {
+      const urlParams = new URLSearchParams(window.location.search);
+      source = urlParams.get("source");
+      if (source === null) {
+        source = "u";
+      }
+    }
 
     if (source === "i") {
       console.log("Visiting From Instagram");
