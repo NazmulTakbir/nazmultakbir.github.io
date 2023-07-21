@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6c0ca93a.css",
-    "main.js": "/static/js/main.5632fe64.js",
+    "main.js": "/static/js/main.7f850dce.js",
     "static/media/NazmulTakbir2.png": "/static/media/NazmulTakbir2.83577e251e61bc0fa782.png",
     "static/media/NazmulTakbir5.jpeg": "/static/media/NazmulTakbir5.2a564227d32260ce3acb.jpeg",
     "static/media/NazmulTakbir4.jpeg": "/static/media/NazmulTakbir4.c663ca0a538bc230a8a3.jpeg",
@@ -29,7 +29,6 @@
     "static/media/cpp.svg": "/static/media/cpp.157c521f834a949ff5c229c7295c3446.svg",
     "static/media/C\u0000#.svg": "/static/media/C#.04d9d2bb18b9781567f7340691dcc686.svg",
     "static/media/django.svg": "/static/media/django.00962b77ec10d067550b6f1e07083e31.svg",
-    "static/media/bash.svg": "/static/media/bash.2ff4286cd733b0c193f3e32961fa9f36.svg",
     "static/media/AppInsights.svg": "/static/media/AppInsights.5a2e51448020dbe7efca9639242bc064.svg",
     "static/media/python.svg": "/static/media/python.2abc268ffd5e4bb1df19c10c0c79e501.svg",
     "index.html": "/index.html",
@@ -38,10 +37,10 @@
     "static/media/JS.svg": "/static/media/JS.218515feb76f692771fe00cfeadc46c8.svg",
     "static/media/F\u0000#.svg": "/static/media/F#.22323597fa63e152cf38b2ec48f53334.svg",
     "main.6c0ca93a.css.map": "/static/css/main.6c0ca93a.css.map",
-    "main.5632fe64.js.map": "/static/js/main.5632fe64.js.map"
+    "main.7f850dce.js.map": "/static/js/main.7f850dce.js.map"
   },
   "entrypoints": [
     "static/css/main.6c0ca93a.css",
-    "static/js/main.5632fe64.js"
+    "static/js/main.7f850dce.js"
   ]
 }
