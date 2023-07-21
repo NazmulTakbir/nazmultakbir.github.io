@@ -5,6 +5,9 @@ import HomePage from "./Home/HomePage";
 
 function App() {
   useEffect(() => {
+    console.log("Visiting From", window.location.href);
+    console.log("Visiting From", window.location.location);
+
     const hash = window.location.hash;
     if (hash.includes("f")) {
       console.log("Visiting From Facebook");
