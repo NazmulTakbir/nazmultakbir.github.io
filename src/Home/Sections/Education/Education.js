@@ -1,7 +1,5 @@
 import React from "react";
 
-import { ReactComponent as BUET } from "../../../Files/svg/buet.svg";
-import { ReactComponent as Mastermind } from "../../../Files/svg/Mastermind.svg";
 import "./style.css";
 
 function Education() {

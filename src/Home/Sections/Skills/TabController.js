@@ -19,7 +19,6 @@ import { ReactComponent as PGSql } from "../../../Files/svg/postgresql.svg";
 import { ReactComponent as Django } from "../../../Files/svg/django.svg";
 import { ReactComponent as K8 } from "../../../Files/svg/kubernetes.svg";
 import { ReactComponent as Linux } from "../../../Files/svg/linux.svg";
-import { ReactComponent as Bash } from "../../../Files/svg/bash.svg";
 import { ReactComponent as Git } from "../../../Files/svg/git.svg";
 import { ReactComponent as Pytorch } from "../../../Files/svg/pytorch.svg";
 import { ReactComponent as Android } from "../../../Files/svg/android.svg";

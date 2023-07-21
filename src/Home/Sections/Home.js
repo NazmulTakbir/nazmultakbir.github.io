@@ -2,7 +2,6 @@ import React from "react";
 import Link from "@mui/material/Link";
 import Button from "@mui/material/Button";
 import DownloadIcon from "@mui/icons-material/Download";
-import { Linkedin } from "react-bootstrap-icons";
 
 function Home() {
   return (
