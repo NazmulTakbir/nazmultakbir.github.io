@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      // An immediately-invoked function expression (IIFE)
+      // to redirect to index.html, with the path in the URL intact.
+      (function () {
+        // This removes the / from the pathname
+        var path = location.pathname.substring(1);
+
+        // This includes the path in the query before redirecting to index.html
+        location.replace(location.protocol + "//" + location.host + "/?p=" + path);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
