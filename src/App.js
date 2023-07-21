@@ -1,23 +1,27 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
 import HomePage from "./Home/HomePage";
 
 function App() {
   useEffect(() => {
-    if (window.location.pathname === "/i") {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const p = urlParams.get("p");
+    console.log(p);
+
+    if (p === "/i") {
       console.log("Visiting From Instagram");
-    } else if (window.location.pathname === "/f") {
+    } else if (p === "/f") {
       console.log("Visiting From Facebook");
-    } else if (window.location.pathname === "/l") {
+    } else if (p === "/l") {
       console.log("Visiting From LinkedIn");
-    } else if (window.location.pathname === "/g") {
+    } else if (p === "/g") {
       console.log("Visiting From Github");
-    } else if (window.location.pathname === "/k") {
+    } else if (p === "/k") {
       console.log("Visiting From Kaggle");
-    } else if (window.location.pathname === "/t") {
+    } else if (p === "/t") {
       console.log("Visiting From Twitter");
-    } else if (window.location.pathname === "/y") {
+    } else if (p === "/y") {
       console.log("Visiting From Youtube");
     }
   }, []);
