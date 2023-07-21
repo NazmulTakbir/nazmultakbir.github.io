@@ -2,6 +2,7 @@ import React from "react";
 import Link from "@mui/material/Link";
 import Button from "@mui/material/Button";
 import DownloadIcon from "@mui/icons-material/Download";
+import { Linkedin } from "react-bootstrap-icons";
 
 function Home() {
   return (
@@ -52,6 +53,13 @@ function Home() {
               Resume<DownloadIcon></DownloadIcon>
             </Button>
           </Link>
+          <p class="mb-3" style={{ marginTop: "20px", fontStyle: "italic" }}>
+            Note: Website last updated on May 1, 2023. Please visit my{" "}
+            <a href="https://www.linkedin.com/in/nazmul-takbir/" target="_blank" rel="noopener noreferrer">
+              Linkedin
+            </a>{" "}
+            for the latest updates.
+          </p>
         </div>
       </section>
     </React.Fragment>

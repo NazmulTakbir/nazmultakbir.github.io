@@ -17,8 +17,7 @@ function Education() {
               <h3 class="mb-0">Bangladesh University of Engineering and Technology</h3>
               <div class="subheading mb-3">Bachelor of Science</div>
               <div>Computer Science and Engineering</div>
-              <p>Current CGPA: 3.91</p>
-              <p>Expected Graduation Date: May 2023</p>
+              <p>CGPA: 3.92</p>
               {/* <p>
                 <Link href="#">Here's some of the courses I enjoyed most</Link>
               </p> */}

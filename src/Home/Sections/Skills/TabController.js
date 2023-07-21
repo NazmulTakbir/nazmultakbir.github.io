@@ -7,12 +7,15 @@ import Box from "@mui/material/Box";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { ReactComponent as Python } from "../../../Files/svg/python.svg";
+import { ReactComponent as AppInsights } from "../../../Files/svg/AppInsights.svg";
+import { ReactComponent as SQLServer } from "../../../Files/svg/SQL_Server.svg";
+import { ReactComponent as DotNetCore } from "../../../Files/svg/NET_Core.svg";
+import { ReactComponent as CSharp } from "../../../Files/svg/C#.svg";
+import { ReactComponent as FSharp } from "../../../Files/svg/F#.svg";
 import { ReactComponent as CPP } from "../../../Files/svg/cpp.svg";
 import { ReactComponent as JAVA } from "../../../Files/svg/java.svg";
-import { ReactComponent as C } from "../../../Files/svg/C.svg";
 import { ReactComponent as JS } from "../../../Files/svg/JS.svg";
 import { ReactComponent as PGSql } from "../../../Files/svg/postgresql.svg";
-import { ReactComponent as MongoDB } from "../../../Files/svg/mongodb.svg";
 import { ReactComponent as Django } from "../../../Files/svg/django.svg";
 import { ReactComponent as K8 } from "../../../Files/svg/kubernetes.svg";
 import { ReactComponent as Linux } from "../../../Files/svg/linux.svg";
@@ -65,6 +68,189 @@ function TabController() {
     setValue(newValue);
   };
 
+  const languages = [
+    {
+      professional: [
+        {
+          tool: "C#",
+          icon: <CSharp style={{ paddingLeft: "4", marginRight: "8", width: "30px", height: "30px" }} />,
+        },
+        {
+          tool: "F#",
+          icon: <FSharp style={{ paddingLeft: "0", marginRight: "4", width: "35px", height: "35px" }} />,
+        },
+        {
+          tool: "Javascript",
+          icon: <JS style={{ paddingLeft: "4", marginRight: "8", width: "29px", height: "29px" }} />,
+        },
+      ],
+      university: [
+        {
+          tool: "Python",
+          icon: <Python style={{ paddingLeft: "4", marginRight: "8", width: "30px", height: "30px" }} />,
+        },
+        {
+          tool: "Java",
+          icon: <JAVA style={{ paddingLeft: "0", marginRight: "2", width: "35px", height: "35px" }} />,
+        },
+        {
+          tool: "C++",
+          icon: <CPP style={{ paddingLeft: "4", marginRight: "8", width: "28px", height: "28px" }} />,
+        },
+      ],
+    },
+  ];
+
+  const webdev = [
+    {
+      professional: [
+        {
+          tool: ".Net Core",
+          icon: <DotNetCore style={{ paddingLeft: "0", marginRight: "4", width: "30px", height: "30px" }} />,
+        },
+        {
+          tool: "SQL Server",
+          icon: <SQLServer style={{ paddingLeft: "0", marginRight: "0", width: "35px", height: "35px" }} />,
+        },
+        {
+          tool: "Telerik",
+          icon: (
+            <img
+              src={require("../../../Files/imgs/Telerik.png")}
+              style={{ height: "25px", marginTop: "8px", marginRight: "7px" }}
+              alt="latex"
+            ></img>
+          ),
+        },
+      ],
+      university: [
+        {
+          tool: "NodeJS",
+          icon: (
+            <FontAwesomeIcon
+              style={{ paddingLeft: "4", paddingRight: "4", color: "#73B856", width: "35px", height: "35px" }}
+              size="2x"
+              icon="fa-brands fa-node"
+            />
+          ),
+        },
+        {
+          tool: "React",
+          icon: (
+            <FontAwesomeIcon
+              style={{ paddingLeft: "4", paddingRight: "8", color: "#00d8ff", width: "32px", height: "32px" }}
+              size="2x"
+              icon="fa-brands fa-react"
+            />
+          ),
+        },
+        {
+          tool: "Django",
+          icon: <Django style={{ paddingLeft: "4", marginRight: "7", width: "37px", height: "37px" }} />,
+        },
+        {
+          tool: "PostgreSQL",
+          icon: <PGSql style={{ paddingLeft: "4", paddingRight: "8", width: "40px", height: "40px" }} />,
+        },
+      ],
+    },
+  ];
+
+  const devops = [
+    {
+      professional: [
+        {
+          tool: "Docker",
+          icon: (
+            <FontAwesomeIcon
+              style={{ paddingLeft: "4", marginRight: "6", width: "30px", height: "30px", color: "#2393E6" }}
+              icon="fa-brands fa-docker"
+            />
+          ),
+        },
+        {
+          tool: "Azure Application Insights",
+          icon: <AppInsights style={{ paddingLeft: "0", marginRight: "4", width: "32px", height: "32px" }} />,
+        },
+        {
+          tool: "Git",
+          icon: <Git style={{ paddingLeft: "2", marginRight: "6", width: "33px", height: "33px" }} />,
+        },
+      ],
+      university: [
+        {
+          tool: "Kubernetes",
+          icon: <K8 style={{ paddingLeft: "4", marginRight: "4", width: "34px", height: "34px" }} />,
+        },
+        {
+          tool: "AWS",
+          icon: <AWS style={{ paddingLeft: "2", marginRight: "6", width: "33px", height: "33px" }} />,
+        },
+        {
+          tool: "Linux",
+          icon: <Linux style={{ paddingLeft: "4", marginRight: "4", width: "32px", height: "32px" }} />,
+        },
+      ],
+    },
+  ];
+
+  const others = [
+    {
+      intermediate: [
+        {
+          tool: "Pytorch",
+          icon: <Pytorch style={{ padding: "0", marginRight: "4", width: "27px", height: "27px" }} />,
+        },
+        {
+          tool: "LaTeX",
+          icon: (
+            <img
+              src={require("../../../Files/imgs/latex.png")}
+              style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
+              alt="latex"
+            ></img>
+          ),
+        },
+        {
+          tool: "JavaFX",
+          icon: (
+            <img
+              src={require("../../../Files/imgs/javafx.jpg")}
+              style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
+              alt="javafx"
+            ></img>
+          ),
+        },
+      ],
+      novice: [
+        {
+          tool: "Android Studio",
+          icon: <Android style={{ paddingLeft: "1", marginRight: "4", width: "32px", height: "32px" }} />,
+        },
+        {
+          tool: "NS3",
+          icon: (
+            <img
+              src={require("../../../Files/imgs/ns3.png")}
+              style={{ height: "20px", marginTop: "10px", marginRight: "6px" }}
+              alt="ns3"
+            ></img>
+          ),
+        },
+        {
+          tool: "OpenGL",
+          icon: (
+            <img
+              src={require("../../../Files/imgs/opengl.png")}
+              style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
+              alt="opengl"
+            ></img>
+          ),
+        },
+      ],
+    },
+  ];
+
   const screenWidth = useWindowSize().width;
   let boxWidth = "100%";
   if (screenWidth > 1250) {
@@ -95,7 +281,10 @@ function TabController() {
           >
             <Tab
               sx={[
-                { color: "#d8d8d8", fontWeight: "600" },
+                {
+                  color: "#d8d8d8",
+                  fontWeight: "600",
+                },
                 () => ({
                   "&.Mui-selected": {
                     color: "white",
@@ -104,13 +293,21 @@ function TabController() {
                     color: "white",
                   },
                 }),
+                {
+                  "@media (max-width:600px)": {
+                    fontSize: "calc(0.6em + 0.4vw)", // even smaller base size and scaling factor
+                  },
+                },
               ]}
               label="Languages"
               {...a11yProps(0)}
             />
             <Tab
               sx={[
-                { color: "#d8d8d8", fontWeight: "600" },
+                {
+                  color: "#d8d8d8",
+                  fontWeight: "600",
+                },
                 () => ({
                   "&.Mui-selected": {
                     color: "white",
@@ -119,13 +316,21 @@ function TabController() {
                     color: "white",
                   },
                 }),
+                {
+                  "@media (max-width:600px)": {
+                    fontSize: "calc(0.6em + 0.4vw)", // even smaller base size and scaling factor
+                  },
+                },
               ]}
               label="WebDev"
-              {...a11yProps(1)}
+              {...a11yProps(0)}
             />
             <Tab
               sx={[
-                { color: "#d8d8d8", fontWeight: "600" },
+                {
+                  color: "#d8d8d8",
+                  fontWeight: "600",
+                },
                 () => ({
                   "&.Mui-selected": {
                     color: "white",
@@ -134,13 +339,21 @@ function TabController() {
                     color: "white",
                   },
                 }),
+                {
+                  "@media (max-width:600px)": {
+                    fontSize: "calc(0.6em + 0.4vw)", // even smaller base size and scaling factor
+                  },
+                },
               ]}
-              label="Devops"
-              {...a11yProps(2)}
+              label="DevOps"
+              {...a11yProps(0)}
             />
             <Tab
               sx={[
-                { color: "#d8d8d8", fontWeight: "600" },
+                {
+                  color: "#d8d8d8",
+                  fontWeight: "600",
+                },
                 () => ({
                   "&.Mui-selected": {
                     color: "white",
@@ -149,263 +362,150 @@ function TabController() {
                     color: "white",
                   },
                 }),
+                {
+                  "@media (max-width:600px)": {
+                    fontSize: "calc(0.6em + 0.4vw)", // even smaller base size and scaling factor
+                  },
+                },
               ]}
               label="Others"
-              {...a11yProps(3)}
+              {...a11yProps(0)}
             />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <Python style={{ paddingLeft: "4", marginRight: "8", width: "30px", height: "30px" }} />
-              <div class="subheading">Python</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "85%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <CPP style={{ paddingLeft: "4", marginRight: "8", width: "28px", height: "28px" }} />
-              <div class="subheading">C++</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "70%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <JS style={{ paddingLeft: "4", marginRight: "8", width: "29px", height: "29px" }} />
-              <div class="subheading">Javascript</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "75%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <JAVA style={{ paddingLeft: "0", marginRight: "2", width: "35px", height: "35px" }} />
-              <div class="subheading">JAVA</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "65%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <C style={{ paddingLeft: "4", marginRight: "8", width: "30px", height: "30px" }} />
-              <div class="subheading">C</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "50%", backgroundColor: "#3296fd" }}></div>
+          <div className="container py-5">
+            <div className="row">
+              {languages.map((experience, index) => (
+                <React.Fragment key={index}>
+                  <div className="col-lg-6 mb-4">
+                    <h3 className="text-center">Professional Experience</h3>
+                    <div className="card shadow">
+                      <div className="card-body">
+                        {experience.professional.map((exp, i) => (
+                          <div key={i}>
+                            {exp.icon} <div class="subheading">{exp.tool}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 mb-4">
+                    <h3 className="text-center">Academic Experience</h3>
+                    <div className="card shadow">
+                      <div className="card-body">
+                        {experience.university.map((exp, i) => (
+                          <div key={i}>
+                            {exp.icon} <div class="subheading">{exp.tool}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </React.Fragment>
+              ))}
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <FontAwesomeIcon
-                style={{ paddingLeft: "4", paddingRight: "8", color: "#73B856", width: "35px", height: "35px" }}
-                size="2x"
-                icon="fa-brands fa-node"
-              />
-              <div class="subheading">NodeJS</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "75%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <Django style={{ paddingLeft: "4", marginRight: "7", width: "37px", height: "37px" }} />
-              <div class="subheading">Django</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "55%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <FontAwesomeIcon
-                style={{ paddingLeft: "4", paddingRight: "8", color: "#00d8ff", width: "32px", height: "32px" }}
-                size="2x"
-                icon="fa-brands fa-react"
-              />
-              <div class="subheading">React</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "65%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <FontAwesomeIcon
-                style={{ paddingLeft: "4", paddingRight: "8", color: "#7411EF", width: "30px", height: "30px" }}
-                size="2x"
-                icon="fa-brands fa-bootstrap"
-              />
-              <div class="subheading">Bootstrap</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "50%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <PGSql style={{ paddingLeft: "4", paddingRight: "8", width: "40px", height: "40px" }} />
-              <div class="subheading">PostgreSQL</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "80%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <MongoDB style={{ paddingLeft: "2", marginRight: "5", width: "40px", height: "40px" }} />
-              <div class="subheading">MongoDB</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "25%", backgroundColor: "#3296fd" }}></div>
+          <div className="container py-5">
+            <div className="row">
+              {webdev.map((experience, index) => (
+                <React.Fragment key={index}>
+                  <div className="col-lg-6 mb-4">
+                    <h3 className="text-center">Professional Experience</h3>
+                    <div className="card shadow">
+                      <div className="card-body">
+                        {experience.professional.map((exp, i) => (
+                          <div key={i}>
+                            {exp.icon} <div class="subheading">{exp.tool}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 mb-4">
+                    <h3 className="text-center">Academic Experience</h3>
+                    <div className="card shadow">
+                      <div className="card-body">
+                        {experience.university.map((exp, i) => (
+                          <div key={i}>
+                            {exp.icon} <div class="subheading">{exp.tool}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </React.Fragment>
+              ))}
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <FontAwesomeIcon
-                style={{ paddingLeft: "4", marginRight: "6", width: "30px", height: "30px", color: "#2393E6" }}
-                icon="fa-brands fa-docker"
-              />
-              <div class="subheading">Docker</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "50%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <K8 style={{ paddingLeft: "4", marginRight: "4", width: "34px", height: "34px" }} />
-              <div class="subheading">Kubernetes</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "30%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <Linux style={{ paddingLeft: "4", marginRight: "4", width: "32px", height: "32px" }} />
-              <div class="subheading">Linux</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "70%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <Bash
-                style={{
-                  padding: "0",
-                  margin: "0",
-                  marginRight: "6",
-                  width: "30px",
-                  height: "30px",
-                }}
-              />
-              <div class="subheading">Bash</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "45%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <AWS style={{ paddingLeft: "2", marginRight: "6", width: "33px", height: "33px" }} />
-              <div class="subheading">AWS</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "25%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <Git style={{ paddingLeft: "2", marginRight: "6", width: "33px", height: "33px" }} />
-              <div class="subheading">Git</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "55%", backgroundColor: "#3296fd" }}></div>
+          <div className="container py-5">
+            <div className="row">
+              {devops.map((experience, index) => (
+                <React.Fragment key={index}>
+                  <div className="col-lg-6 mb-4">
+                    <h3 className="text-center">Professional Experience</h3>
+                    <div className="card shadow">
+                      <div className="card-body">
+                        {experience.professional.map((exp, i) => (
+                          <div key={i}>
+                            {exp.icon} <div class="subheading">{exp.tool}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 mb-4">
+                    <h3 className="text-center">Academic Experience</h3>
+                    <div className="card shadow">
+                      <div className="card-body">
+                        {experience.university.map((exp, i) => (
+                          <div key={i}>
+                            {exp.icon} <div class="subheading">{exp.tool}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </React.Fragment>
+              ))}
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={3}>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <Pytorch style={{ padding: "0", marginRight: "4", width: "27px", height: "27px" }} />
-              <div class="subheading">Pytorch</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "40%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <Android style={{ paddingLeft: "1", marginRight: "4", width: "32px", height: "32px" }} />
-              <div class="subheading">AndroidStudio</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "35%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <img
-                src={require("../../../Files/imgs/javafx.jpg")}
-                style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
-                alt="javafx"
-              ></img>
-              <div class="subheading">JavaFX</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "30%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <img
-                src={require("../../../Files/imgs/latex.png")}
-                style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
-                alt="latex"
-              ></img>
-              <div class="subheading">Latex</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "45%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <img
-                src={require("../../../Files/imgs/ns3.png")}
-                style={{ height: "20px", marginTop: "10px", marginRight: "6px" }}
-                alt="ns3"
-              ></img>
-              <div class="subheading">NS3</div>
-            </div>
-            <div class=" progress shadow" style={{ marginTop: "2px" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "25%", backgroundColor: "#3296fd" }}></div>
-            </div>
-          </div>
-          <div class="skill-item p-1 pb-3">
-            <div class="d-flex flex-row">
-              <img
-                src={require("../../../Files/imgs/opengl.png")}
-                style={{ height: "25px", marginTop: "5px", marginRight: "6px" }}
-                alt="opengl"
-              ></img>
-              <div class="subheading">OpenGL</div>
-            </div>
-            <div class="progress shadow" style={{ marginTop: "2px", backgroundColor: "#E9ECEF" }}>
-              <div class="progress-bar" role="progressbar" style={{ width: "20%", backgroundColor: "#3296fd" }}></div>
+          <div className="container py-5">
+            <div className="row">
+              {others.map((experience, index) => (
+                <React.Fragment key={index}>
+                  <div className="col-lg-6 mb-4">
+                    <h3 className="text-center">Intermediate</h3>
+                    <div className="card shadow">
+                      <div className="card-body">
+                        {experience.intermediate.map((exp, i) => (
+                          <div key={i}>
+                            {exp.icon} <div class="subheading">{exp.tool}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 mb-4">
+                    <h3 className="text-center">Novice</h3>
+                    <div className="card shadow">
+                      <div className="card-body">
+                        {experience.novice.map((exp, i) => (
+                          <div key={i}>
+                            {exp.icon} <div class="subheading">{exp.tool}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </React.Fragment>
+              ))}
             </div>
           </div>
         </TabPanel>
