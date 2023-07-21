@@ -1,6 +1,7 @@
 import React from "react";
 
-// import Link from "@mui/material/Link";
+import { ReactComponent as BUET } from "../../../Files/svg/buet.svg";
+import { ReactComponent as Mastermind } from "../../../Files/svg/Mastermind.svg";
 import "./style.css";
 
 function Education() {
@@ -14,6 +15,7 @@ function Education() {
             style={{ marginRight: "12px", marginLeft: "12px" }}
           >
             <div class="flex-grow-1">
+              <BUET style={{ paddingLeft: "4", marginRight: "8", width: "30px", height: "30px" }} />
               <h3 class="mb-0">Bangladesh University of Engineering and Technology</h3>
               <div class="subheading mb-3">Bachelor of Science</div>
               <div>Computer Science and Engineering</div>
@@ -31,6 +33,7 @@ function Education() {
             style={{ marginRight: "12px", marginLeft: "12px" }}
           >
             <div class="flex-grow-1">
+              <Mastermind style={{ paddingLeft: "4", marginRight: "8", width: "30px", height: "30px" }} />
               <h3 class="mb-0">Mastermind English Medium School</h3>
               <div class="subheading mb-3">O levels and A levels</div>
             </div>
