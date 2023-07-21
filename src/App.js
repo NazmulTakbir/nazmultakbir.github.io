@@ -5,20 +5,25 @@ import HomePage from "./Home/HomePage";
 
 function App() {
   useEffect(() => {
-    console.log("Visiting From", window.location);
+    const url = window.location.href;
 
-    // const hash = window.location.hash;
-    // if (hash.includes("f")) {
-    //   console.log("Visiting From Facebook");
-    // } else if (hash.includes("g")) {
-    //   console.log("Visiting From GitHub");
-    // } else if (hash.includes("l")) {
-    //   console.log("Visiting From LinkedIn");
-    // } else if (hash.includes("y")) {
-    //   console.log("Visiting From YouTube");
-    // } else {
-    //   console.log("Visiting From Instagram/Direct");
-    // }
+    if (url.includes("github.io")) {
+      const partAfterGithub = url.slice(url.indexOf("github.io") + "github.io".length);
+
+      if (partAfterGithub.includes("f")) {
+        console.log("Visiting From Facebook");
+      } else if (partAfterGithub.includes("g")) {
+        console.log("Visiting From GitHub");
+      } else if (partAfterGithub.includes("l")) {
+        console.log("Visiting From LinkedIn");
+      } else if (partAfterGithub.includes("y")) {
+        console.log("Visiting From YouTube");
+      } else {
+        console.log("Visiting From Instagram/Direct");
+      }
+    } else {
+      console.log("Visiting From Localhost");
+    }
   }, []);
 
   return (
