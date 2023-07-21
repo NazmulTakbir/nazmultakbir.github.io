@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/me/static/css/main.6c0ca93a.css",
-    "main.js": "/me/static/js/main.7797f833.js",
+    "main.js": "/me/static/js/main.1c63f297.js",
     "static/media/NazmulTakbir2.png": "/me/static/media/NazmulTakbir2.83577e251e61bc0fa782.png",
-    "static/media/Mastermind.svg": "/me/static/media/Mastermind.9ada731dc44bf0173026906191e95d38.svg",
     "static/media/NazmulTakbir5.jpeg": "/me/static/media/NazmulTakbir5.2a564227d32260ce3acb.jpeg",
     "static/media/NazmulTakbir4.jpeg": "/me/static/media/NazmulTakbir4.c663ca0a538bc230a8a3.jpeg",
     "static/media/NazmulTakbir3.jpeg": "/me/static/media/NazmulTakbir3.c9519836577bb9ee8e2f.jpeg",
@@ -21,7 +20,6 @@
     "static/media/latex.png": "/me/static/media/latex.da9ebec86e456294aa70.png",
     "static/media/javafx.jpg": "/me/static/media/javafx.799bd1d52a13b13e02da.jpg",
     "static/media/postgresql.svg": "/me/static/media/postgresql.77ffaea8a58131454c4f9b0918eec8ea.svg",
-    "static/media/buet.svg": "/me/static/media/buet.77ee3c7967e94b59aecac714db09fe17.svg",
     "static/media/linux.svg": "/me/static/media/linux.b2fdc6357f4e8581ad61e84230788130.svg",
     "static/media/kubernetes.svg": "/me/static/media/kubernetes.6d1fd7b81baafbebe1fcab2ff74818b4.svg",
     "static/media/android.svg": "/me/static/media/android.edf0573d43e21f27f551068bbbb70d6a.svg",
@@ -40,10 +38,10 @@
     "static/media/JS.svg": "/me/static/media/JS.218515feb76f692771fe00cfeadc46c8.svg",
     "static/media/F\u0000#.svg": "/me/static/media/F#.22323597fa63e152cf38b2ec48f53334.svg",
     "main.6c0ca93a.css.map": "/me/static/css/main.6c0ca93a.css.map",
-    "main.7797f833.js.map": "/me/static/js/main.7797f833.js.map"
+    "main.1c63f297.js.map": "/me/static/js/main.1c63f297.js.map"
   },
   "entrypoints": [
     "static/css/main.6c0ca93a.css",
-    "static/js/main.7797f833.js"
+    "static/js/main.1c63f297.js"
   ]
 }
