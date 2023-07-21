@@ -15,14 +15,10 @@ function Education() {
             style={{ marginRight: "12px", marginLeft: "12px" }}
           >
             <div class="flex-grow-1">
-              <BUET style={{ paddingLeft: "4", marginRight: "8", width: "30px", height: "30px" }} />
               <h3 class="mb-0">Bangladesh University of Engineering and Technology</h3>
               <div class="subheading mb-3">Bachelor of Science</div>
               <div>Computer Science and Engineering</div>
               <p>CGPA: 3.92</p>
-              {/* <p>
-                <Link href="#">Here's some of the courses I enjoyed most</Link>
-              </p> */}
             </div>
             <div class="flex-shrink-0">
               <span class="text-primary">April 2018 - May 2023</span>
@@ -33,7 +29,6 @@ function Education() {
             style={{ marginRight: "12px", marginLeft: "12px" }}
           >
             <div class="flex-grow-1">
-              <Mastermind style={{ paddingLeft: "4", marginRight: "8", width: "30px", height: "30px" }} />
               <h3 class="mb-0">Mastermind English Medium School</h3>
               <div class="subheading mb-3">O levels and A levels</div>
             </div>
