@@ -1,40 +1,40 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { HashRouter, Route, Switch } from "react-router-dom";
+
 import HomePage from "./Home/HomePage";
 
 function App() {
   useEffect(() => {
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const p = urlParams.get("p");
-    console.log(p);
-
-    if (p === "/i") {
+    const hash = window.location.hash; // this gets the part of the URL after the '#'
+    if (hash === "#/i") {
       console.log("Visiting From Instagram");
-    } else if (p === "/f") {
+    } else if (hash === "#/f") {
       console.log("Visiting From Facebook");
-    } else if (p === "/l") {
+    } else if (hash === "#/l") {
       console.log("Visiting From LinkedIn");
-    } else if (p === "/g") {
+    } else if (hash === "#/g") {
       console.log("Visiting From Github");
-    } else if (p === "/k") {
+    } else if (hash === "#/k") {
       console.log("Visiting From Kaggle");
-    } else if (p === "/t") {
+    } else if (hash === "#/t") {
       console.log("Visiting From Twitter");
-    } else if (p === "/y") {
+    } else if (hash === "#/y") {
       console.log("Visiting From Youtube");
     }
   }, []);
 
   return (
-    <React.Fragment>
-      <Helmet>
-        <title>Nazmul Takbir</title>
-        <link rel="canonical" href="https://nazmultakbir.github.io/" />
-        <meta name="description" content="Nazmul Takbir Portfolio" />
-      </Helmet>
-      <HomePage />
-    </React.Fragment>
+    <HashRouter>
+      <React.Fragment>
+        <Helmet>
+          <title>Nazmul Takbir</title>
+          <link rel="canonical" href="https://nazmultakbir.github.io/" />
+          <meta name="description" content="Nazmul Takbir Portfolio" />
+        </Helmet>
+        <HomePage />
+      </React.Fragment>
+    </HashRouter>
   );
 }
 
