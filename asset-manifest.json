@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6c0ca93a.css",
-    "main.js": "/static/js/main.2c88f62d.js",
+    "main.js": "/static/js/main.f227e671.js",
     "static/media/NazmulTakbir2.png": "/static/media/NazmulTakbir2.83577e251e61bc0fa782.png",
     "static/media/NazmulTakbir5.jpeg": "/static/media/NazmulTakbir5.2a564227d32260ce3acb.jpeg",
     "static/media/NazmulTakbir4.jpeg": "/static/media/NazmulTakbir4.c663ca0a538bc230a8a3.jpeg",
@@ -37,10 +37,10 @@
     "static/media/JS.svg": "/static/media/JS.218515feb76f692771fe00cfeadc46c8.svg",
     "static/media/F\u0000#.svg": "/static/media/F#.22323597fa63e152cf38b2ec48f53334.svg",
     "main.6c0ca93a.css.map": "/static/css/main.6c0ca93a.css.map",
-    "main.2c88f62d.js.map": "/static/js/main.2c88f62d.js.map"
+    "main.f227e671.js.map": "/static/js/main.f227e671.js.map"
   },
   "entrypoints": [
     "static/css/main.6c0ca93a.css",
-    "static/js/main.2c88f62d.js"
+    "static/js/main.f227e671.js"
   ]
 }
