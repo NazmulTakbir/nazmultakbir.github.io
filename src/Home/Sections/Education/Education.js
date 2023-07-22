@@ -16,7 +16,10 @@ function Education() {
               <h3 class="mb-0">Bangladesh University of Engineering and Technology</h3>
               <div class="subheading mb-3">Bachelor of Science</div>
               <div>Computer Science and Engineering</div>
-              <p>CGPA: 3.92</p>
+              <p>
+                CGPA: 3.92 <br />
+                17th out of 129 students
+              </p>
             </div>
             <div class="flex-shrink-0">
               <span class="text-primary">April 2018 - May 2023</span>

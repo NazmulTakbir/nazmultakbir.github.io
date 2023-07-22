@@ -1,12 +1,13 @@
 import React from "react";
 
-import Navbar from "./Sections/Navbar";
-import Home from "./Sections/Home";
-import Research from "./Sections/Research";
+import Navbar from "./Sections/Navbar/Navbar";
+import Home from "./Sections/Home/Home";
+import Research from "./Sections/Research/Research";
 import Education from "./Sections/Education/Education";
 import Skills from "./Sections/Skills/Skills";
 import Projects from "./Sections/Projects/Projects";
-import Awards from "./Sections/Awards";
+import Awards from "./Sections/Awards/Awards";
+import Experience from "./Sections/Experience/Experience";
 
 function HomePage() {
   return (
@@ -16,6 +17,8 @@ function HomePage() {
         <Home />
         <hr class="m-0" />
         <Education />
+        <hr class="m-0" />
+        <Experience />
         <hr class="m-0" />
         <Research />
         <hr class="m-0" />

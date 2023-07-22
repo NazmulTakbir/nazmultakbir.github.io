@@ -56,6 +56,9 @@ function Research() {
                   Experiments for the project are performed on the AWS cloud. The project is funded by RISE, BUET
                   Student Research Grant{" "}
                 </p>
+                <p>
+                  <i>This work is currently under review at a major cloud computing conference.</i>
+                </p>
               </div>
               <div class="flex-shrink-0">
                 <span class="text-primary">May 2022 - Present</span>

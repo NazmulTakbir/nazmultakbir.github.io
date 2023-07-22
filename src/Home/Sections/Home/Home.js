@@ -17,11 +17,20 @@ function Home() {
           <br />
           <br />
           <p class="lead mb-5">
-            I am a final year student of Computer Science and Engineering at Bangladesh University of Engineering and
-            Technology (BUET). I am highly interested in the field of applied machine learning and computer systems.
-            Currently, I am dedicating my time and efforts to my final year project, which seamlessly blends my two
-            areas of interest - evaluating the feasibility of utilizing Serverless Architecture for Machine Learning
-            applications.
+            I am a Computer Science graduate from BUET and am currently working as a Software Engineer at Chaldal,
+            Bangladesh's largest online grocery service. At Chaldal, I build{" "}
+            <strong>software that streamlines supply chain operations</strong>, including demand forecasting and
+            inventory management. <br />
+            <br />
+            Simultaneously, I am also interested in academic research. My undergraduate thesis was on{" "}
+            <strong>leveraging serverless computing for training online machine learning models</strong>: an
+            intersection between the fields of computer systems and machine learning. My work is currently under review
+            at a major cloud computing conference. <br />
+            <br />
+            Having some experience in both academic research and the industry has made me realize that my passion lies
+            at their intersection:{" "}
+            <strong>using computer science research to address complex real-world problems</strong>. I aspire to a
+            future role that embodies this perfect synergy.
           </p>
           <div class="social-icons">
             <a
@@ -47,13 +56,18 @@ function Home() {
               <i class="fab fa-facebook-f"></i>
             </a>
           </div>
-          <Link href={require("../../Files/pdf/NazmulTakbirCV.pdf")} target="_blank" rel="noopener noreferrer" download>
+          <Link
+            href={require("../../../Files/pdf/NazmulTakbirCV.pdf")}
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
             <Button style={{ backgroundColor: "#495057", marginTop: "40px" }} variant="contained">
               Resume<DownloadIcon></DownloadIcon>
             </Button>
           </Link>
           <p class="mb-3" style={{ marginTop: "20px", fontStyle: "italic" }}>
-            Note: Website last updated on May 1, 2023. Please visit my{" "}
+            Note: Website last updated on July 22, 2023. Please visit my{" "}
             <a href="https://www.linkedin.com/in/nazmul-takbir/" target="_blank" rel="noopener noreferrer">
               Linkedin
             </a>{" "}
