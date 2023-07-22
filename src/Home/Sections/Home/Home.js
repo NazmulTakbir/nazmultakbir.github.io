@@ -62,11 +62,11 @@ function Home() {
             rel="noopener noreferrer"
             download
           >
-            <Button style={{ backgroundColor: "#495057", marginTop: "40px" }} variant="contained">
+            <Button style={{ backgroundColor: "#495057", marginTop: "30px" }} variant="contained">
               Resume<DownloadIcon></DownloadIcon>
             </Button>
           </Link>
-          <p class="mb-3" style={{ marginTop: "20px", fontStyle: "italic" }}>
+          <p class="mb-3" style={{ marginTop: "15px", fontStyle: "italic" }}>
             Note: Website last updated on July 22, 2023. Please visit my{" "}
             <a href="https://www.linkedin.com/in/nazmul-takbir/" target="_blank" rel="noopener noreferrer">
               Linkedin
