@@ -37,6 +37,26 @@ function MediumScreen(props) {
               </div>
             </div>
           </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="row">
+              <div class="col-6">
+                <ProjectCard project={props.projects[6]} width="18rem" />
+              </div>
+              <div class="col-6">
+                <ProjectCard project={props.projects[7]} width="18rem" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="row">
+              <div class="col-6">
+                <ProjectCard project={props.projects[8]} width="18rem" />
+              </div>
+              <div class="col-6">
+                <ProjectCard project={props.projects[5]} width="18rem" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="d-flex justify-content-center">

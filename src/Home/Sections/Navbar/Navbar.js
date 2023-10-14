@@ -23,12 +23,12 @@ function Navbar() {
 
     if (position < eduPos) {
       setSelectedSection("Home");
-    } else if (position >= eduPos && position < experiencePos) {
+    } else if (position >= eduPos && position < researchPos) {
       setSelectedSection("Education");
-    } else if (position >= experiencePos && position < researchPos) {
-      setSelectedSection("Experience");
-    } else if (position >= researchPos && position < projPos) {
+    } else if (position >= researchPos && position < experiencePos) {
       setSelectedSection("Research");
+    } else if (position >= experiencePos && position < projPos) {
+      setSelectedSection("Experience");
     } else if (position >= projPos && position < skillsPos) {
       setSelectedSection("Projects");
     } else if (position >= skillsPos && position < awardsPos) {
@@ -57,8 +57,8 @@ function Navbar() {
   const sections = [
     { name: "Home", link: "#home" },
     { name: "Education", link: "#education" },
-    { name: "Experience", link: "#experience" },
     { name: "Research", link: "#research" },
+    { name: "Experience", link: "#experience" },
     { name: "Projects", link: "#projects" },
     { name: "Skills", link: "#skills" },
     { name: "Awards", link: "#awards" },

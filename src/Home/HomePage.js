@@ -18,9 +18,9 @@ function HomePage() {
         <hr class="m-0" />
         <Education />
         <hr class="m-0" />
-        <Experience />
-        <hr class="m-0" />
         <Research />
+        <hr class="m-0" />
+        <Experience />
         <hr class="m-0" />
         <Projects />
         <hr class="m-0" />

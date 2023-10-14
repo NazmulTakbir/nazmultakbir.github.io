@@ -61,6 +61,33 @@ function MobileScreen(props) {
               </div>
             </div>
           </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12">
+                  <ProjectCard project={props.projects[6]} width="21rem" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12">
+                  <ProjectCard project={props.projects[7]} width="21rem" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12">
+                  <ProjectCard project={props.projects[8]} width="21rem" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="d-flex justify-content-center">

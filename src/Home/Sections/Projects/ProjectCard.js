@@ -11,6 +11,8 @@ import { ReactComponent as JAVA } from "../../../Files/svg/java.svg";
 import { ReactComponent as JS } from "../../../Files/svg/JS.svg";
 import { ReactComponent as PGSql } from "../../../Files/svg/postgresql.svg";
 import { ReactComponent as Django } from "../../../Files/svg/django.svg";
+import { ReactComponent as Pytorch } from "../../../Files/svg/pytorch.svg";
+import { ReactComponent as Bash } from "../../../Files/svg/bash.svg";
 
 import "./style.css";
 
@@ -56,6 +58,20 @@ function ProjectCard(props) {
           {props.project.tech["django"] ? (
             <Django style={{ paddingLeft: "4", marginRight: "7", width: "37px", height: "37px", paddingTop: "0px" }} />
           ) : null}
+          {props.project.tech["pytorch"] ? (
+            <Pytorch style={{ padding: "0", marginRight: "4", width: "27px", height: "27px" }} />
+          ) : null}
+          {props.project.tech["bash"] ? (
+            <Bash
+              style={{
+                padding: "0",
+                margin: "0",
+                marginRight: "6",
+                width: "30px",
+                height: "30px",
+              }}
+            />
+          ) : null}
           {props.project.tech["react"] ? (
             <FontAwesomeIcon style={{ paddingRight: "4", color: "#00d8ff" }} size="2x" icon="fa-brands fa-react" />
           ) : null}
@@ -85,9 +101,11 @@ function ProjectCard(props) {
         </p>
 
         <div class="d-flex flex-row-reverse">
-          <Link target="_blank" rel="noopener noreferrer" href={props.project.videolink} underline="none" color="red">
-            <Youtube size={25} class="m-1" />
-          </Link>
+          {props.project.videolink && props.project.videolink.trim() !== "" && (
+            <Link target="_blank" rel="noopener noreferrer" href={props.project.videolink} underline="none" color="red">
+              <Youtube size={25} class="m-1" />
+            </Link>
+          )}
           <Link target="_blank" rel="noopener noreferrer" href={props.project.gitlink} underline="none" color="black">
             <Github size={25} class="m-1" />
           </Link>
