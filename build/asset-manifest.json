@@ -1,7 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.8c3f049d.css",
-    "main.js": "/static/js/main.cb220a55.js",
+    "main.js": "/static/js/main.8334ccb5.js",
+    "static/media/NazmulTakbir7.jpg": "/static/media/NazmulTakbir7.7e9638fe2a6b4c8d9468.jpg",
+    "static/media/NazmulTakbir8.jpg": "/static/media/NazmulTakbir8.9d54a5a69afc8a1efa68.jpg",
+    "static/media/NazmulTakbir6.jpg": "/static/media/NazmulTakbir6.474a5fbd449e815a3e62.jpg",
     "static/media/NazmulTakbir2.png": "/static/media/NazmulTakbir2.83577e251e61bc0fa782.png",
     "static/media/NazmulTakbir5.jpeg": "/static/media/NazmulTakbir5.2a564227d32260ce3acb.jpeg",
     "static/media/NazmulTakbir4.jpeg": "/static/media/NazmulTakbir4.c663ca0a538bc230a8a3.jpeg",
@@ -11,11 +14,14 @@
     "static/media/smart-stick.jpg": "/static/media/smart-stick.1c6ad0aa5cc1e33a9a22.jpg",
     "static/media/lan-messenger.jpeg": "/static/media/lan-messenger.2fd739bf1e33ddca9ac8.jpeg",
     "static/media/opengl.png": "/static/media/opengl.f09f53fada42751eb09b.png",
+    "static/media/paging.jpg": "/static/media/paging.eb222e699f13ecc7d95a.jpg",
+    "static/media/cnn-offline.jpg": "/static/media/cnn-offline.c7ea8bcecf74d464a1b5.jpg",
     "static/media/bus-radar.jpeg": "/static/media/bus-radar.19a263f38d49fbcb5fe1.jpeg",
     "static/media/ray-tracing.jpeg": "/static/media/ray-tracing.279208a59b36a56d2935.jpeg",
     "static/media/biis.jpeg": "/static/media/biis.8e2f582fcd01a1a41ff7.jpeg",
+    "static/media/bangla-word.jpg": "/static/media/bangla-word.3e21023256e1d6703cf3.jpg",
     "static/media/ns3.png": "/static/media/ns3.0428cfb8919ebac7f731.png",
-    "static/media/NazmulTakbirCV.pdf": "/static/media/NazmulTakbirCV.5d2a66b15a48796a2709.pdf",
+    "static/media/NazmulTakbirCV.pdf": "/static/media/NazmulTakbirCV.865b0a284619aa61a086.pdf",
     "static/media/SQL_Server.svg": "/static/media/SQL_Server.7e3c2025a2f083448bd8b4aa32b126ea.svg",
     "static/media/latex.png": "/static/media/latex.da9ebec86e456294aa70.png",
     "static/media/javafx.jpg": "/static/media/javafx.799bd1d52a13b13e02da.jpg",
@@ -38,10 +44,10 @@
     "static/media/JS.svg": "/static/media/JS.218515feb76f692771fe00cfeadc46c8.svg",
     "static/media/F\u0000#.svg": "/static/media/F#.22323597fa63e152cf38b2ec48f53334.svg",
     "main.8c3f049d.css.map": "/static/css/main.8c3f049d.css.map",
-    "main.cb220a55.js.map": "/static/js/main.cb220a55.js.map"
+    "main.8334ccb5.js.map": "/static/js/main.8334ccb5.js.map"
   },
   "entrypoints": [
     "static/css/main.8c3f049d.css",
-    "static/js/main.cb220a55.js"
+    "static/js/main.8334ccb5.js"
   ]
 }

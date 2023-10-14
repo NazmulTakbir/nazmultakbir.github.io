@@ -19,10 +19,11 @@ function Navbar() {
     const researchPos = document.getElementById("research").getBoundingClientRect().top + offset - offet;
     const projPos = document.getElementById("projects").getBoundingClientRect().top + offset - offet;
     const skillsPos = document.getElementById("skills").getBoundingClientRect().top + offset - offet;
+    const testScoresPos = document.getElementById("testscores").getBoundingClientRect().top + offset - offet;
     const awardsPos = document.getElementById("awards").getBoundingClientRect().top + offset - offet * 10;
 
     if (position < eduPos) {
-      setSelectedSection("Home");
+      setSelectedSection("About");
     } else if (position >= eduPos && position < researchPos) {
       setSelectedSection("Education");
     } else if (position >= researchPos && position < experiencePos) {
@@ -31,8 +32,10 @@ function Navbar() {
       setSelectedSection("Experience");
     } else if (position >= projPos && position < skillsPos) {
       setSelectedSection("Projects");
-    } else if (position >= skillsPos && position < awardsPos) {
+    } else if (position >= skillsPos && position < testScoresPos) {
       setSelectedSection("Skills");
+    } else if (position >= testScoresPos && position < awardsPos) {
+      setSelectedSection("Test Scores");
     } else if (position >= awardsPos) {
       setSelectedSection("Awards");
     }
@@ -55,12 +58,13 @@ function Navbar() {
 
   // https://stackoverflow.com/questions/71249961/react-jsx-setting-a-dynamic-hover-color-pseudoclass-property
   const sections = [
-    { name: "Home", link: "#home" },
+    { name: "About", link: "#home" },
     { name: "Education", link: "#education" },
     { name: "Research", link: "#research" },
     { name: "Experience", link: "#experience" },
     { name: "Projects", link: "#projects" },
     { name: "Skills", link: "#skills" },
+    { name: "Test Scores", link: "#testscores" },
     { name: "Awards", link: "#awards" },
   ];
   return (

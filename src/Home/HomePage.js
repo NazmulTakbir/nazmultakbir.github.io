@@ -8,6 +8,7 @@ import Skills from "./Sections/Skills/Skills";
 import Projects from "./Sections/Projects/Projects";
 import Awards from "./Sections/Awards/Awards";
 import Experience from "./Sections/Experience/Experience";
+import TestScores from "./Sections/TestScores/TestScores";
 
 function HomePage() {
   return (
@@ -25,6 +26,8 @@ function HomePage() {
         <Projects />
         <hr class="m-0" />
         <Skills />
+        <hr class="m-0" />
+        <TestScores />
         <hr class="m-0" />
         <Awards />
         <hr class="m-0" />
