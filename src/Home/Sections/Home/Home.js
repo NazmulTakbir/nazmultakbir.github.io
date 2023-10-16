@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "@mui/material/Link";
-import Button from "@mui/material/Button";
-import DownloadIcon from "@mui/icons-material/Download";
+// import Button from "@mui/material/Button";
+// import DownloadIcon from "@mui/icons-material/Download";
 
 function Home() {
   return (
@@ -44,9 +44,9 @@ function Home() {
             <a target="_blank" rel="noopener noreferrer" class="social-icon" href="https://github.com/NazmulTakbir">
               <i class="fab fa-github"></i>
             </a>
-            <a target="_blank" rel="noopener noreferrer" class="social-icon" href="https://twitter.com/NazmulTakbir">
+            {/* <a target="_blank" rel="noopener noreferrer" class="social-icon" href="https://twitter.com/NazmulTakbir">
               <i class="fab fa-twitter"></i>
-            </a>
+            </a> */}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -56,7 +56,7 @@ function Home() {
               <i class="fab fa-facebook-f"></i>
             </a>
           </div>
-          <Link
+          {/* <Link
             href={require("../../../Files/pdf/NazmulTakbirCV.pdf")}
             target="_blank"
             rel="noopener noreferrer"
@@ -65,7 +65,7 @@ function Home() {
             <Button style={{ backgroundColor: "#495057", marginTop: "30px" }} variant="contained">
               Download CV<DownloadIcon></DownloadIcon>
             </Button>
-          </Link>
+          </Link> */}
           <p class="mb-3" style={{ marginTop: "15px", fontStyle: "italic" }}>
             Note: Website last updated on October 14, 2023. Please visit my{" "}
             <a href="https://www.linkedin.com/in/nazmul-takbir/" target="_blank" rel="noopener noreferrer">

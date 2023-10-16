@@ -4,7 +4,7 @@ import { Link } from "@mui/material";
 import { Github } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
 import { Facebook } from "react-bootstrap-icons";
-import { Twitter } from "react-bootstrap-icons";
+// import { Twitter } from "react-bootstrap-icons";
 
 function SocialMedia() {
   const style = {
@@ -39,7 +39,7 @@ function SocialMedia() {
       >
         <Facebook size={25} class="m-1" />
       </Link>
-      <Link
+      {/* <Link
         target="_blank"
         rel="noopener noreferrer"
         href="https://twitter.com/NazmulTakbir"
@@ -47,7 +47,7 @@ function SocialMedia() {
         color="#f7f7f7"
       >
         <Twitter size={25} class="m-1" />
-      </Link>
+      </Link> */}
     </div>
   );
 }

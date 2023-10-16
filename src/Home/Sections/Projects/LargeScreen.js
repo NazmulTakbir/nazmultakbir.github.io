@@ -8,7 +8,7 @@ function LargeScreen(props) {
     <React.Fragment>
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
+          <div class="carousel-item active" data-bs-interval="10000000">
             <div class="row">
               <div class="col-4">
                 <ProjectCard project={props.projects[0]} width="18rem" />
@@ -21,7 +21,7 @@ function LargeScreen(props) {
               </div>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="10000">
+          <div class="carousel-item" data-bs-interval="10000000">
             <div class="row">
               <div class="col-4">
                 <ProjectCard project={props.projects[3]} width="18rem" />
@@ -34,7 +34,7 @@ function LargeScreen(props) {
               </div>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="10000">
+          <div class="carousel-item" data-bs-interval="10000000">
             <div class="row">
               <div class="col-4">
                 <ProjectCard project={props.projects[6]} width="18rem" />
