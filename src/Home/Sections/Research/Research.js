@@ -57,7 +57,7 @@ function Research() {
                   Student Research Grant{" "}
                 </p>
                 <p>
-                  <i>This work is currently under review at a major cloud computing conference.</i>
+                  <i>This work is currently under review at a conference.</i>
                 </p>
               </div>
               <div class="flex-shrink-0">
