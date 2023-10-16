@@ -25,7 +25,7 @@ function Home() {
             Simultaneously, I am also interested in academic research. My undergraduate thesis was on{" "}
             <strong>leveraging serverless computing for training online machine learning models</strong>: an
             intersection between the fields of computer systems and machine learning. My work is currently under review
-            at a major cloud computing conference. <br />
+            at a conference. <br />
             <br />
             Having some experience in both academic research and the industry has made me realize that my passion lies
             at their intersection:{" "}
