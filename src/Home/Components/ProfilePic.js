@@ -11,7 +11,7 @@ function ProfilePic() {
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-10">
         <img
-          src={require("../../Files/imgs/NazmulTakbir8.jpg")}
+          src={require("../../Files/imgs/NazmulTakbir9.jpeg")}
           class="img-fluid"
           alt="Nazmul Takbir"
           style={style}
