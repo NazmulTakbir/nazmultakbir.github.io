@@ -17,20 +17,17 @@ function Home() {
           <br />
           <br />
           <p class="lead mb-5">
-            I am a Computer Science graduate from BUET and am currently working as a Software Engineer at Chaldal,
-            Bangladesh's largest online grocery service. At Chaldal, I build{" "}
+            I am a recent Computer Science graduate from BUET and am currently working as a Software Engineer at
+            Chaldal, Bangladesh's largest online grocery service. At Chaldal, I build{" "}
             <strong>software that streamlines supply chain operations</strong>, including demand forecasting and
             inventory management. <br />
+            <br />I have a strong interest in academic research. My undergraduate thesis was on{" "}
+            <strong>leveraging serverless computing for training online machine learning models</strong>. I am excited
+            to be in the final phases of preparing my research for a conference submission. <br />
             <br />
-            Simultaneously, I am also interested in academic research. My undergraduate thesis was on{" "}
-            <strong>leveraging serverless computing for training online machine learning models</strong>: an
-            intersection between the fields of computer systems and machine learning. My work is currently under review
-            at a conference. <br />
-            <br />
-            Having some experience in both academic research and the industry has made me realize that my passion lies
-            at their intersection:{" "}
-            <strong>using computer science research to address complex real-world problems</strong>. I aspire to a
-            future role that embodies this perfect synergy.
+            My journey through academia and industry has crystallized my passion: I am drawn to{" "}
+            <strong>using computer science research to address complex real-world problems</strong>. Therefore, I am
+            eager to pursue a PhD in Computer Science, and contribute significantly to research and innovation.
           </p>
           <div class="social-icons">
             <a
@@ -66,13 +63,13 @@ function Home() {
               Download CV<DownloadIcon></DownloadIcon>
             </Button>
           </Link> */}
-          <p class="mb-3" style={{ marginTop: "15px", fontStyle: "italic" }}>
+          {/* <p class="mb-3" style={{ marginTop: "15px", fontStyle: "italic" }}>
             Note: Website last updated on October 14, 2023. Please visit my{" "}
             <a href="https://www.linkedin.com/in/nazmul-takbir/" target="_blank" rel="noopener noreferrer">
               Linkedin
             </a>{" "}
             for the latest updates.
-          </p>
+          </p> */}
         </div>
       </section>
     </React.Fragment>
