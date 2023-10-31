@@ -61,7 +61,7 @@ function Research() {
                 </p>
               </div>
               <div class="flex-shrink-0">
-                <span class="text-primary">May 2022 - Present</span>
+                <span class="text-primary"></span>
               </div>
             </div>
           </div>
